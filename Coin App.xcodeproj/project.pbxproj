@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D6A01A2A3EC06000BBF086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A0192A3EC06000BBF086 /* AppDelegate.swift */; };
+		C3D6A01C2A3EC06000BBF086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A01B2A3EC06000BBF086 /* SceneDelegate.swift */; };
+		C3D6A01E2A3EC06000BBF086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A01D2A3EC06000BBF086 /* ViewController.swift */; };
+		C3D6A0212A3EC06000BBF086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D6A01F2A3EC06000BBF086 /* Main.storyboard */; };
+		C3D6A0232A3EC06300BBF086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D6A0222A3EC06300BBF086 /* Assets.xcassets */; };
+		C3D6A0262A3EC06300BBF086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D6A0242A3EC06300BBF086 /* LaunchScreen.storyboard */; };
+		C3D6A0312A3EC06300BBF086 /* Coin_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A0302A3EC06300BBF086 /* Coin_AppTests.swift */; };
+		C3D6A03B2A3EC06300BBF086 /* Coin_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A03A2A3EC06300BBF086 /* Coin_AppUITests.swift */; };
+		C3D6A03D2A3EC06300BBF086 /* Coin_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A03C2A3EC06300BBF086 /* Coin_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D6A02D2A3EC06300BBF086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D6A00E2A3EC06000BBF086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D6A0152A3EC06000BBF086;
+			remoteInfo = "Coin App";
+		};
+		C3D6A0372A3EC06300BBF086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D6A00E2A3EC06000BBF086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D6A0152A3EC06000BBF086;
+			remoteInfo = "Coin App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3D6A0162A3EC06000BBF086 /* Coin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D6A0192A3EC06000BBF086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3D6A01B2A3EC06000BBF086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3D6A01D2A3EC06000BBF086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3D6A0202A3EC06000BBF086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3D6A0222A3EC06300BBF086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3D6A0252A3EC06300BBF086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3D6A0272A3EC06300BBF086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D6A02C2A3EC06300BBF086 /* Coin AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D6A0302A3EC06300BBF086 /* Coin_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_AppTests.swift; sourceTree = "<group>"; };
+		C3D6A0362A3EC06300BBF086 /* Coin AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D6A03A2A3EC06300BBF086 /* Coin_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_AppUITests.swift; sourceTree = "<group>"; };
+		C3D6A03C2A3EC06300BBF086 /* Coin_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D6A0132A3EC06000BBF086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6A0292A3EC06300BBF086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6A0332A3EC06300BBF086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D6A00D2A3EC06000BBF086 = {
+			isa = PBXGroup;
+			children = (
+				C3D6A0182A3EC06000BBF086 /* Coin App */,
+				C3D6A02F2A3EC06300BBF086 /* Coin AppTests */,
+				C3D6A0392A3EC06300BBF086 /* Coin AppUITests */,
+				C3D6A0172A3EC06000BBF086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D6A0172A3EC06000BBF086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D6A0162A3EC06000BBF086 /* Coin App.app */,
+				C3D6A02C2A3EC06300BBF086 /* Coin AppTests.xctest */,
+				C3D6A0362A3EC06300BBF086 /* Coin AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D6A0182A3EC06000BBF086 /* Coin App */ = {
+			isa = PBXGroup;
+			children = (
+				C3D6A0192A3EC06000BBF086 /* AppDelegate.swift */,
+				C3D6A01B2A3EC06000BBF086 /* SceneDelegate.swift */,
+				C3D6A01D2A3EC06000BBF086 /* ViewController.swift */,
+				C3D6A01F2A3EC06000BBF086 /* Main.storyboard */,
+				C3D6A0222A3EC06300BBF086 /* Assets.xcassets */,
+				C3D6A0242A3EC06300BBF086 /* LaunchScreen.storyboard */,
+				C3D6A0272A3EC06300BBF086 /* Info.plist */,
+			);
+			path = "Coin App";
+			sourceTree = "<group>";
+		};
+		C3D6A02F2A3EC06300BBF086 /* Coin AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D6A0302A3EC06300BBF086 /* Coin_AppTests.swift */,
+			);
+			path = "Coin AppTests";
+			sourceTree = "<group>";
+		};
+		C3D6A0392A3EC06300BBF086 /* Coin AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D6A03A2A3EC06300BBF086 /* Coin_AppUITests.swift */,
+				C3D6A03C2A3EC06300BBF086 /* Coin_AppUITestsLaunchTests.swift */,
+			);
+			path = "Coin AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D6A0152A3EC06000BBF086 /* Coin App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D6A0402A3EC06300BBF086 /* Build configuration list for PBXNativeTarget "Coin App" */;
+			buildPhases = (
+				C3D6A0122A3EC06000BBF086 /* Sources */,
+				C3D6A0132A3EC06000BBF086 /* Frameworks */,
+				C3D6A0142A3EC06000BBF086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin App";
+			productName = "Coin App";
+			productReference = C3D6A0162A3EC06000BBF086 /* Coin App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D6A02B2A3EC06300BBF086 /* Coin AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D6A0432A3EC06300BBF086 /* Build configuration list for PBXNativeTarget "Coin AppTests" */;
+			buildPhases = (
+				C3D6A0282A3EC06300BBF086 /* Sources */,
+				C3D6A0292A3EC06300BBF086 /* Frameworks */,
+				C3D6A02A2A3EC06300BBF086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D6A02E2A3EC06300BBF086 /* PBXTargetDependency */,
+			);
+			name = "Coin AppTests";
+			productName = "Coin AppTests";
+			productReference = C3D6A02C2A3EC06300BBF086 /* Coin AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3D6A0352A3EC06300BBF086 /* Coin AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D6A0462A3EC06300BBF086 /* Build configuration list for PBXNativeTarget "Coin AppUITests" */;
+			buildPhases = (
+				C3D6A0322A3EC06300BBF086 /* Sources */,
+				C3D6A0332A3EC06300BBF086 /* Frameworks */,
+				C3D6A0342A3EC06300BBF086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D6A0382A3EC06300BBF086 /* PBXTargetDependency */,
+			);
+			name = "Coin AppUITests";
+			productName = "Coin AppUITests";
+			productReference = C3D6A0362A3EC06300BBF086 /* Coin AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D6A00E2A3EC06000BBF086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C3D6A0152A3EC06000BBF086 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C3D6A02B2A3EC06300BBF086 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C3D6A0152A3EC06000BBF086;
+					};
+					C3D6A0352A3EC06300BBF086 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C3D6A0152A3EC06000BBF086;
+					};
+				};
+			};
+			buildConfigurationList = C3D6A0112A3EC06000BBF086 /* Build configuration list for PBXProject "Coin App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D6A00D2A3EC06000BBF086;
+			productRefGroup = C3D6A0172A3EC06000BBF086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D6A0152A3EC06000BBF086 /* Coin App */,
+				C3D6A02B2A3EC06300BBF086 /* Coin AppTests */,
+				C3D6A0352A3EC06300BBF086 /* Coin AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D6A0142A3EC06000BBF086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D6A0262A3EC06300BBF086 /* LaunchScreen.storyboard in Resources */,
+				C3D6A0232A3EC06300BBF086 /* Assets.xcassets in Resources */,
+				C3D6A0212A3EC06000BBF086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6A02A2A3EC06300BBF086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6A0342A3EC06300BBF086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D6A0122A3EC06000BBF086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D6A01E2A3EC06000BBF086 /* ViewController.swift in Sources */,
+				C3D6A01A2A3EC06000BBF086 /* AppDelegate.swift in Sources */,
+				C3D6A01C2A3EC06000BBF086 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6A0282A3EC06300BBF086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D6A0312A3EC06300BBF086 /* Coin_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D6A0322A3EC06300BBF086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D6A03D2A3EC06300BBF086 /* Coin_AppUITestsLaunchTests.swift in Sources */,
+				C3D6A03B2A3EC06300BBF086 /* Coin_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D6A02E2A3EC06300BBF086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D6A0152A3EC06000BBF086 /* Coin App */;
+			targetProxy = C3D6A02D2A3EC06300BBF086 /* PBXContainerItemProxy */;
+		};
+		C3D6A0382A3EC06300BBF086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D6A0152A3EC06000BBF086 /* Coin App */;
+			targetProxy = C3D6A0372A3EC06300BBF086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D6A01F2A3EC06000BBF086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D6A0202A3EC06000BBF086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3D6A0242A3EC06300BBF086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D6A0252A3EC06300BBF086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D6A03E2A3EC06300BBF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3D6A03F2A3EC06300BBF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D6A0412A3EC06300BBF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coin App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tin.learn.Coin-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3D6A0422A3EC06300BBF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coin App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tin.learn.Coin-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3D6A0442A3EC06300BBF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tin.learn.Coin-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coin App";
+			};
+			name = Debug;
+		};
+		C3D6A0452A3EC06300BBF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tin.learn.Coin-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coin App";
+			};
+			name = Release;
+		};
+		C3D6A0472A3EC06300BBF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tin.learn.Coin-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coin App";
+			};
+			name = Debug;
+		};
+		C3D6A0482A3EC06300BBF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tin.learn.Coin-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coin App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D6A0112A3EC06000BBF086 /* Build configuration list for PBXProject "Coin App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D6A03E2A3EC06300BBF086 /* Debug */,
+				C3D6A03F2A3EC06300BBF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D6A0402A3EC06300BBF086 /* Build configuration list for PBXNativeTarget "Coin App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D6A0412A3EC06300BBF086 /* Debug */,
+				C3D6A0422A3EC06300BBF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D6A0432A3EC06300BBF086 /* Build configuration list for PBXNativeTarget "Coin AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D6A0442A3EC06300BBF086 /* Debug */,
+				C3D6A0452A3EC06300BBF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D6A0462A3EC06300BBF086 /* Build configuration list for PBXNativeTarget "Coin AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D6A0472A3EC06300BBF086 /* Debug */,
+				C3D6A0482A3EC06300BBF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D6A00E2A3EC06000BBF086 /* Project object */;
+}
