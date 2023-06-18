@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Coin_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YR4-NL-3qm" userLabel="viewParent">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ByteCoin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geg-Ah-UQO">
+                                        <rect key="frame" x="0.0" y="16.000000000000004" width="393" height="57.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hJ-Xp-ZQp">
+                                        <rect key="frame" x="0.0" y="559" width="393" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="LBs-KF-7r2"/>
+                                        </constraints>
+                                    </pickerView>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VbX-na-qos" userLabel="viewCorner">
+                                        <rect key="frame" x="151.66666666666666" y="89.333333333333343" width="89.666666666666657" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksB-8w-N8W" userLabel="labelValue">
+                                                <rect key="frame" x="63.999999999999993" y="0.0" width="17.666666666666664" height="56"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="joB-Sw-bUk">
+                                                <rect key="frame" x="0.0" y="1" width="56" height="54.666666666666671"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="M5r-z8-e6M"/>
+                                                    <constraint firstAttribute="width" constant="56" id="MB2-xG-RL6"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <constraints>
+                                            <constraint firstItem="joB-Sw-bUk" firstAttribute="leading" secondItem="VbX-na-qos" secondAttribute="leading" id="012-CZ-IxW"/>
+                                            <constraint firstAttribute="height" constant="56" id="2gt-nD-uOi"/>
+                                            <constraint firstAttribute="trailing" secondItem="ksB-8w-N8W" secondAttribute="trailing" constant="8" id="46z-Ns-B9p"/>
+                                            <constraint firstItem="joB-Sw-bUk" firstAttribute="top" secondItem="VbX-na-qos" secondAttribute="top" id="JuL-lP-Zxd"/>
+                                            <constraint firstAttribute="bottom" secondItem="ksB-8w-N8W" secondAttribute="bottom" id="bnp-Mq-ehf"/>
+                                            <constraint firstItem="ksB-8w-N8W" firstAttribute="top" secondItem="VbX-na-qos" secondAttribute="top" id="oHn-9O-yU8"/>
+                                            <constraint firstItem="ksB-8w-N8W" firstAttribute="leading" secondItem="joB-Sw-bUk" secondAttribute="trailing" constant="8" id="oOf-jK-812"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1hJ-Xp-ZQp" secondAttribute="trailing" id="Hlw-Xi-aBd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Geg-Ah-UQO" secondAttribute="trailing" id="Js2-NC-mAa"/>
+                                    <constraint firstItem="1hJ-Xp-ZQp" firstAttribute="leading" secondItem="YR4-NL-3qm" secondAttribute="leading" id="Uun-OP-LkP"/>
+                                    <constraint firstItem="VbX-na-qos" firstAttribute="centerX" secondItem="YR4-NL-3qm" secondAttribute="centerX" id="WL1-bK-Jkh"/>
+                                    <constraint firstItem="Geg-Ah-UQO" firstAttribute="top" secondItem="YR4-NL-3qm" secondAttribute="top" constant="16" id="Wu8-b5-gA8"/>
+                                    <constraint firstItem="VbX-na-qos" firstAttribute="top" secondItem="Geg-Ah-UQO" secondAttribute="bottom" constant="16" id="iMz-lg-TMK"/>
+                                    <constraint firstItem="Geg-Ah-UQO" firstAttribute="leading" secondItem="YR4-NL-3qm" secondAttribute="leading" id="rua-ti-0fO"/>
+                                    <constraint firstAttribute="bottom" secondItem="1hJ-Xp-ZQp" secondAttribute="bottom" id="t7f-0O-bcb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YR4-NL-3qm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Q2-4V-T2c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YR4-NL-3qm" secondAttribute="bottom" id="NCw-mj-E4w"/>
+                            <constraint firstItem="YR4-NL-3qm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WCo-kh-0W1"/>
+                            <constraint firstItem="YR4-NL-3qm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jwv-Eh-SiI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelValue" destination="ksB-8w-N8W" id="9Hq-ev-F9W"/>
+                        <outlet property="picker" destination="1hJ-Xp-ZQp" id="gSn-1l-3q4"/>
+                        <outlet property="viewCorner" destination="VbX-na-qos" id="pXv-zw-NZ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bitcoinsign.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
